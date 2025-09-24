@@ -238,7 +238,7 @@ export default function HomePage() {
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
-          <h1 className="text-2xl font-bold tracking-tight" style="margin-left:10px;">Pixlim</h1>
+          <h1 className="text-2xl font-bold tracking-tight">LitePress</h1>
           <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label="Toggle dark mode">
               {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
